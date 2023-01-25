@@ -1,0 +1,13 @@
+Package: ladistribution
+Type: Package
+Title: The LA and LI distribution
+Version: 0.1.0
+Author: Murilo Sagrillo, Renata Guerra, Fabio Bayer, and Renato Machado
+Maintainer: Murilo Sagrillo <murilo.pereira@acad.ufsm.br>
+Description: Density, distribution function, quantile function and random generation for the LA and LI distributions. The package also contains a function for fitting the distributions. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Imports:  GenSA
+
