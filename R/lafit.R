@@ -102,7 +102,7 @@
   g$convergence <- res$conv
   g$value<-res$value
   data<-x
-  hist(data,nclass = 20, freq = F,xlim=c(0.001,max(data)),ylim=c(0.001,max(density(data))))
+  hist(data,nclass = 45, freq = F,xlim=c(0.001,max(data)),ylim=c(0.001,max(density(data))))
   curve(density,xlim=c(0.001,max(data)),ylim=c(0.001,max(density(data))),lty=3,add=T)
   g$AIC<-AIC
   g$W_star<- W_star
