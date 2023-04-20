@@ -91,8 +91,8 @@ lifit <-function(x){
   g$convergence <- res$conv
   g$value<-res$value
   data<-x
-  hist(x,nclass = 70, freq = F,xlim=c(0.001,max(data)),ylim=c(0.001,15))
-  curve(density,xlim=c(0.001,max(data)),ylim=c(0.001,1),lty=3,add=T)
+  hist(data,nclass = 20, freq = F,xlim=c(0.001,max(data)),ylim=c(0.001,max(density(data))))
+  curve(density,xlim=c(0.001,max(data)),ylim=c(0.001,max(density(data))),lty=3,add=T)
   g$AIC<-AIC
   g$W_star<- W_star
   g$A_star<- A_star
