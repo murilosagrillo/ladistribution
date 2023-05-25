@@ -45,3 +45,17 @@ In addition, the lafit and lifit functions are available for parameter estimatio
 	</li>
 	<li>From this step, just choose the function of interest&nbsp;and run it with the input arguments of interest.</li>
 </ol>
+
+
+<div>
+  <h2> Reference </h2> 
+</div>
+@ARTICLE{10082991,
+  author={Sagrillo, Murilo and Guerra, Renata Rojas and Bayer, Fábio M. and Machado, Renato},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={The LA Distribution: An Approximation of the G0A Distribution for Amplitude SAR Image Modeling}, 
+  year={2023},
+  volume={61},
+  number={},
+  pages={1-8},
+  doi={10.1109/TGRS.2023.3262480}}
