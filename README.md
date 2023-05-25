@@ -39,7 +39,7 @@ In addition, the lafit and lifit functions are available for parameter estimatio
 	<ul>
 		<li>install.packages(&#39;devtools&#39;) #installs package devtools which is a collection of package development tools</li>
 		<li>library(devtools) #loads the functions from the devtools package into memory</li>
-		<li>install_github(&quot;murilosagrillo/ladistribution&quot;) #installs the ladistribution package, with all the functions described in Table 1.</li>
+		<li>install_github(&quot;murilosagrillo/ladistribution&quot;) #installs the ladistribution package, with all the package functions.</li>
 		<li>library(ladistribution) #loads the functions from the ladistribution package into memory;</li>
 	</ul>
 	</li>
@@ -50,12 +50,12 @@ In addition, the lafit and lifit functions are available for parameter estimatio
 <div>
   <h2> Reference </h2> 
 </div>
-@ARTICLE{10082991,
-  author={Sagrillo, Murilo and Guerra, Renata Rojas and Bayer, Fábio M. and Machado, Renato},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={The LA Distribution: An Approximation of the G0A Distribution for Amplitude SAR Image Modeling}, 
-  year={2023},
-  volume={61},
-  number={},
-  pages={1-8},
+@ARTICLE{10082991,<br>
+  author={Sagrillo, Murilo and Guerra, Renata Rojas and Bayer, Fábio M. and Machado, Renato},<br>
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, <br>
+  title={The LA Distribution: An Approximation of the G0A Distribution for Amplitude SAR Image Modeling}, <br>
+  year={2023},<br>
+  volume={61},<br>
+  number={},<br>
+  pages={1-8},<br>
   doi={10.1109/TGRS.2023.3262480}}
